@@ -26,7 +26,7 @@
 .Page-content {
   display: flex;
   width: 100vw;
-  height: 100vh
+  height: 100%
 }
 
 .Quiz {
@@ -49,9 +49,26 @@
   justify-items: flex-start;
 }
 
+.Question-card h2 {
+  margin-top: 0;
+}
+
 .Options {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
+}
+
+.Option, .Custom-Option {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Custom-Option {
+  display: flex;
+  gap: 5px
 }
 
 
@@ -61,7 +78,7 @@
 #Menu-result {
   background-color: darksalmon;
   width: 50%;
-  height: 100%;
+  height: 100vh;
 }
 
 .App-link {
