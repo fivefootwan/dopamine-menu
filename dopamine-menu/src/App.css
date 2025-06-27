@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Page-content {
+  display: flex;
+  width: 100vw;
+  height: 100vh
+}
+
+.Quiz {
+  background-color: cornflowerblue;
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  justify-items: center;
+}
+
+.Question-card {
+  background-color: blanchedalmond;
+  width: 50%;
+  padding: 5%;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  justify-items: flex-start;
+}
+
+.Options {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* START OF RIGHT SIDE */
+
+
+#Menu-result {
+  background-color: darksalmon;
+  width: 50%;
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
