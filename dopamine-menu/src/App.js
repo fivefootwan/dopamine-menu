@@ -12,10 +12,11 @@ function App() {
       <div className='Page-content'>
 
         <form className='Quiz'> {/*onSubmit={(e) => {e.preventDefault;}}*/}
-          <p>Quiz</p>
+          <p className='Section-title'>1. Answer these qs</p>
 
           <div className='Question-card'>
             <h2 className='Question'>Pick your setting</h2>
+            <p className='Disclaimer'>Choose max 2 options</p>
               <div className='Options'>
                 <p className='Option'>
                 <input type="checkbox"/> 🛋️ Chill at home
@@ -51,6 +52,7 @@ function App() {
 
           <div className='Question-card'>
             <h2 className='Question'>Choose your comfort move:</h2>
+            <p className='Disclaimer'>Choose max 2 options</p>
               <div className='Options'>
                 <p className='Option'>
                 <input type="checkbox"/> 🍜 Eat
@@ -85,6 +87,7 @@ function App() {
 
           <div className='Question-card'>
             <h2 className='Question'>Pick a mood booster</h2>
+            <p className='Disclaimer'>Choose max 2 options</p>
             <div className='Options'>
               <p className='Option'>
               <input type="checkbox"/>🎶 Music
@@ -119,6 +122,7 @@ function App() {
 
           <div className='Question-card'>
             <h2 className='Question'>Which feels most rewarding right now?</h2>
+            <p className='Disclaimer'>Choose max 2 options</p>
             <div className='Options'>
               <p className='Option'>
               <input type="checkbox"/>✅ Check something off
@@ -153,6 +157,7 @@ function App() {
 
           <div className='Question-card'>
             <h2 className='Question'>What’s your energy vibe?</h2>
+            <p className='Disclaimer'>Choose 1 option</p>
             <div className='Options'>
               <p className='Option'>
               <input type="radio" name="energy"/>🔋 Full tank
@@ -174,7 +179,7 @@ function App() {
         </form>
 
         <div id='Menu-result'>
-          <p>menu</p>
+          <p className='Section-title'>2. Wait a second for menu to gen</p>
         </div>
 
       </div>
